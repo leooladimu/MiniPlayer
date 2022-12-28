@@ -1,0 +1,71 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "parserOptions": {
+    "parser": "@babel/eslint"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/leooladimu/MiniPlayer.git"
+  },
+  "presets": [
+    "@babel/preset-env"
+  ],
+  "author": "Leo Ọládimú",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leooladimu/MiniPlayer/issues"
+  },
+  "homepage": "https://github.com/leooladimu/MiniPlayer#readme",
+  "dependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "@vue/compiler-sfc": "^3.2.45",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.1.0",
+    "core-js": "^3.8.3",
+    "esnext-scripts": "^2.1.1",
+    "express": "^4.18.2",
+    "i18n-js": "^4.2.2",
+    "vue": "^3.2.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@babel/types": "^7.20.7",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "no-console": "warn",
+      "no-debugger": "warn"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "keywords": []
+}
