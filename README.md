@@ -1,0 +1,2 @@
+# MiniPlayer
+some styles
